@@ -1,0 +1,272 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .top {
+  width: 100%;
+  height: 10.66667rem;
+  padding-top: 1.86667rem;
+  background: #5ee6eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .top input {
+  width: 80%;
+  height: 1.2rem;
+  background: #f5eded;
+  margin: 0.21333rem 0;
+  padding-left: 0.37333rem;
+}
+
+.wrapper .top button {
+  width: 80%;
+  height: 1.2rem;
+  background: #09df09;
+  color: #fff;
+  font-size: 0.53333rem;
+  outline: none;
+}
+
+.wrapper .top .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .top .list span {
+  height: 100%;
+  width: 40%;
+  text-align: center;
+}
+
+.wrapper .top p {
+  width: 80%;
+  line-height: 0.96rem;
+  font-size: 0.37333rem;
+  text-align: center;
+}
+
+.wrapper .first {
+  width: 100%;
+  height: 5.33333rem;
+  background: #99f3ef;
+  padding-top: 2.66667rem;
+}
+
+.wrapper .first h3 {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 0.45333rem;
+}
+
+.wrapper .first div {
+  width: 100%;
+  height: 1.46667rem;
+  line-height: 1.46667rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper .first div a {
+  width: 1.46667rem;
+  height: 100%;
+  background: #6ee221;
+  text-align: center;
+  line-height: 1.46667rem;
+  border-radius: 50%;
+}
+
+.wrapper .first div i {
+  font-size: 0.64rem;
+  color: #fff;
+}
